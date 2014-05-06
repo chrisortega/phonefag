@@ -1,0 +1,16 @@
+html,
+body {
+	    background-color: #161616;
+        font:100% Arial, Helvetica, sans-serif; 
+        color:#fff;
+        margin: auto 0; 
+    	padding: 0;
+    	text-align: center;
+}
+#content{
+	margin: 0 auto;
+
+}
+#update_button{
+	width: 100%;
+}
