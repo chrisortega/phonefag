@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>First</title>
+	<script src="js/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+	<button id="first">Go</button>
+	<button id="clear">Clear</button>
+	<div id="result"></div>
+
+	
+	<script type="text/javascript">
+	 $(function() {
+		$('#first').click(function() {
+
+			$('#result').append(Date() + '</br>');
+
+		});
+
+	 	$('#clear').click(function() {
+
+			$('#result').empty();
+
+		});
+
+		});
+	</script>
+</body>
+</html>
